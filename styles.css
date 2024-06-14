@@ -1,0 +1,121 @@
+/* Existing CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3B2D34;
+    color: #FFFFFF;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #2E1E25;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #E3A668;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #FFFFFF;
+}
+
+#home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#home .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#home .summary {
+    font-size: 24px;
+    color: #E3A668;
+}
+
+#about,
+#skills,
+#projects,
+#contact {
+    background: #3B2D34;
+}
+
+#about p,
+#skills .skills-container .skill,
+#contact p {
+    color: #E3A668;
+}
+
+#skills .skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    background: #55424A;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.project {
+    margin-bottom: 30px;
+    color: #E3A668; /* Ensure project text color is #E3A668 */
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #2E1E25;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+    color: #E3A668;
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <img src="C:\Users\MEGHANA\OneDrive\Pictures\WhatsApp Image 2024-06-14 at 09.30.30_4ba2bf11.jpg" alt="My Photo" class="profile-photo">
+        <p class="summary">I am a web developer with skills in HTML, CSS, JavaScript, and more.</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Meghana, a passionate full stack and web developer. My expertise lies in seamlessly blending front-end aesthetics with back-end efficiency to create robust and visually captivating web applications. With a keen eye for detail and a love for problem-solving, I thrive on turning complex challenges into elegant solutions. From crafting intuitive user interfaces to building scalable server-side architectures, I am dedicated to delivering exceptional digital experiences. Let's connect and bring your web projects to life!
+
+        </p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">Git</div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Each project will be displayed here -->
+        <div class="project-gallery">
+            <div class="project-item"></div>
+                 <image src="C:\Users\MEGHANA\OneDrive\Pictures\download (1).jpeg" alt="Project 1"></image>
+                 <h3>Art gallery</h3>
+            <p>Discover exceptional art from around the world at Art Gallery . Explore our curated collection of paintings, sculptures, digital art, and photography. Whether you're a collector or an enthusiast, find and purchase unique pieces from talented artists. Start your artistic journey with us today.</p>
+        </div>
+        <div class="project-item">
+            <img src="C:\Users\MEGHANA\OneDrive\Pictures\download.jpeg" alt="Project 2">
+            <h3>Library Management System</h3>
+            <p>Manage your library efficiently with our Library Management System. Streamline book cataloging, lending, and returns. Empower patrons with easy access to the catalog and online reservations. Simplify administrative tasks like inventory management and overdue notifications. Enhance library operations with our user-friendly and robust system designed to meet your library's needs.
+
+            </p>
+          </div>
+</div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:meghana@example.com">youremail@example.com</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Smooth Scrolling Script -->
+    <script>
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
